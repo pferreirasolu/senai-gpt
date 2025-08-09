@@ -28,5 +28,5 @@ box-sizing: border-box;
     display: flex; /*Ativar o flex*/
     flex-direction: column; /*Muda o flex para colunas*/
     align-items: center; /*Centralizar horizontalmente*/
-    justify-content: center;
+    justify-content: center;/*Centralizar verticalmente*/
 }
