@@ -9,7 +9,7 @@ box-sizing: border-box;
     }
 
 .robo-image {
-    background-color: blue;
+    background-color: red;
     width: 50vw;
     height:100vh;
 
@@ -21,7 +21,7 @@ box-sizing: border-box;
 }
 
 .login-container {
-    background-color: yellow;
+    background-color: white;
     width: 50vw;/*Largura da tela*/
     height:100vh;/*Altura da tela*/
 
