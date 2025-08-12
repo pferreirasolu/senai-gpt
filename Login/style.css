@@ -1,17 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 *{
-padding: 0;
-margin: 0;
-box-sizing: border-box;
+padding: 0px;/*Margem interna*/
+margin: 0px;/*margem externa*/
+box-sizing: border-box; /*Muda a estrutura de espaçamentos*/
+font-family: "Inter";
 }
 
 .titulo {
-    font-size:75px;
+    font-size:76px;
     }
 
 .robo-image {
-    background-color: red;
     width: 50vw;
     height:100vh;
+    background-image: url("../assets/imgs/Sidebar.png");
+    background-size: cover;
 
 }
 
@@ -21,7 +25,6 @@ box-sizing: border-box;
 }
 
 .login-container {
-    background-color: white;
     width: 50vw;/*Largura da tela*/
     height:100vh;/*Altura da tela*/
 
@@ -29,4 +32,21 @@ box-sizing: border-box;
     flex-direction: column; /*Muda o flex para colunas*/
     align-items: center; /*Centralizar horizontalmente*/
     justify-content: center;/*Centralizar verticalmente*/
+}
+
+.class { /*Com ponto antes*/
+
+}
+
+#id { /* Com hashtqag antes*/
+
+}
+
+img { /*Tags, sem nenhum prefixo*/
+
+}
+
+.login-container img { /*usando tag dentro de alguma divid*/
+
+    height: 60px;
 }
