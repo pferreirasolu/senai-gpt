@@ -46,6 +46,14 @@ font-family: Inter;
     margin-bottom: 16px;
 }
 
+/*.terceira-div {
+    width: 50vw;
+    height:100vh;
+    background-color: blue;
+
+}*/
+
+
 .login-container button {
     background-color:#000000;
     width: 377px;
@@ -57,8 +65,7 @@ font-family: Inter;
 }
 
 .logo {
-margin-bottom: 16px;
-}
+    background-position: center;
 
 /*F7F9FB*/
 .class { /*Com ponto antes*/
