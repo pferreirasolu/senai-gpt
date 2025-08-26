@@ -1,30 +1,117 @@
 
 
-// Exercicio 1 
+// Exercicio 1  Verificar maioridade:
 
-// let nome = prompt("Qual é seu nome?");
-// let idade = prompt("Qual é sua idade:")
+// let idade = prompt("Qual é a sua idade?")
 
-// console.log("Meu nome é " +nome+", e minha idade é "+idade+".");
-// alert("Meu nome é " +nome+", e minha idade é "+idade+".");
+// if (idade >= 18) {
 
+//     alert("Cuidado, você é maior de idade")
+// } else {
+//     alert("Parabéns, você é menor de idade")
 
-let idade = prompt("Qual é a idade:")
+// };
 
-if (idade < 18) {
+//Exercicio 2 Verificar se um número é positivo ou negativo:
 
-    alert("Cuidado, você é menor de idade")
-} else {
-    alert("Parabéns, você é maior de idade")
+// let numero = prompt("Digite um numero")
 
-};
-
-// let numero =prompt("Digite um número!");
-
-// if (numero > 0) {
-// alert("O numero é positivo!")
+// if (numero < 0 ) {
+//     alert("O numero é negativo")
 
 // } else {
+//     alert("O numero é positivo")
 
-//     alert("O número é negativo!")
+// }
+
+// Exercicio 3 Aprovação em uma prova:
+
+// let nota = prompt("Ditite a nota do aluno")
+
+// if (nota >= 60) {
+
+// alert("Aprovado")
+// } else {
+
+// alert("Reprovado")
+// }
+
+// Exercicio 4 - Verificar se um número é positivo, negativo ou zero:
+// let numero = prompt("Digite um numero")
+
+// if (numero < 0) {
+//     alert("O numero é negativo")
+// } else {
+//     if (numero == 0) {
+//         alert("O numero é zero")
+//     } else {
+//         alert("O numero e positivo")
+//     }
+// }
+
+// Exercicio 5 Classificação de idade:
+
+// let idade =prompt("Insira sua idade")
+
+// if (idade >=0  && idade <= 12 ){
+//     alert("Criança")
+
+// }else {
+//     if (idade >=13  && idade <= 17 ) {
+//         alert("Adolescente")
+//     }else {
+//         alert("Adulto")
+//     }
+
+// }
+
+// Exercicio 6 Verificar se um número é par ou ímpar:
+
+// let numero = prompt("Digite um numero")
+
+// if (numero % 2== 0) {
+//     alert("O numero é par")
+// } else {
+//     alert("O numero é ímpar")
+// }
+
+// Nível Intermediário
+
+// Calculadora simples
+// let numero1 = Number(prompt("Digite um numero"));
+// let numero2 = Number(prompt("Digite mais um numero"));
+// let operacao = prompt("Qual operação?");
+
+
+// if (operacao == "+") {
+//     alert(numero1 + numero2);
+// } else {
+//     if (operacao == "-") {
+//         alert("O resultado dois dois numeros é " + (numero1 - numero2));
+//     } else {
+//         if (operacao == "/") {
+//             alert("O resultado dois dois numeros é " + (numero1 / numero2));
+//         } else {
+//             alert("O resultado dois dois numeros é " + (numero1 * numero2));
+//         }
+
+//     }
+
+// }
+
+// 2 Maior entre três números:
+
+// let numero1 = Number(prompt("Digite o primeiro numero"))
+// let numero2 = Number(prompt("Digite o segundo numero"))
+// let numero3 = Number(prompt("Digite o terceiro numero"))
+
+// if (numero1 > numero2 && numero1 > numero3) {
+//     alert("O numero maior é o numero = "+numero1)
+// } else {
+//     if (numero2 > numero1 && numero2 > numero3) {
+//         alert("O numero maior é o numero = "+numero2)
+//     } else {
+//         alert("O numero maior é o numero =  "+numero3)
+//     }
+
 // }
