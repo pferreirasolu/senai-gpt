@@ -115,3 +115,26 @@
 //     }
 
 // }
+
+
+// 3 Desconto em compras:
+
+// let valorCompra = Number(prompt("QUal o valor da compra?"));
+
+// if (valorCompra >= 100 ) {
+//     alert("O valor da compra com desconto de 10% é: "+(valorCompra-(valorCompra*10)/100))
+// } else {
+//     alert("O valor da compra com desconto de 10% é: "+valorCompra);
+// }
+
+
+// 4 Sistema de login simples:
+
+// let usuario = prompt("Digite o usuario");
+// let senha = Number(prompt("Digite a senha"));
+
+// if (usuario == "admin" && senha == 1234) {
+//     alert("Login bem-sucedido")
+// } else {
+//     alert("Acesso negado")
+// }
