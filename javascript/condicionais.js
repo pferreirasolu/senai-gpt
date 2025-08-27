@@ -206,19 +206,15 @@
 
 // 4 Validação de ano bissexto:
 
-// let ano = Number(prompt("Digite o ano (Formato 1900)"))
-// let resultado= (ano % 4 === 0 && ano % 100 !== 0) || (ano % 400 === 0);
-
-// if (resultado == true) {
-//     alert("É Bissexto")
-// } else {
-//     alert("Não é Bissexto")
-// }
-
-
 let ano = Number(prompt("Digite o ano (Formato 1900)"))
-let resultado= (ano % 4 === 0 && ano % 100 !== 0);
 
-if (ano % 400 === 0) {
-    alert("È bissexto")
+
+if (ano % 4 === 0 && ano % 100 !== 0) {
+    alert("É Bissexto")
+} else {
+    if (ano % 400 === 0) {
+    alert("É Bissexto")
+} else {
+    alert("Não é Bissexto")
+}
 }
