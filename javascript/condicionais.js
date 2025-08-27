@@ -138,3 +138,87 @@
 // } else {
 //     alert("Acesso negado")
 // }
+
+
+
+// Nível Avançado
+
+// 1 - Classificação de triângulos:
+
+// let lado1 = Number(prompt("Digite o lado 1"));
+// let lado2 = Number(prompt("Digite o lado 2"));
+// let lado3 = Number(prompt("Digite o lado 3"));
+
+// if (lado1 == lado2 && lado1 == lado3) {
+//     alert("O triangulo é um Equilátero")
+// } else {
+//     if (lado1 != lado2 && lado1 != lado3) {
+//         alert("O triangulo é um escaleno")
+//     } else {
+//         alert("O triangulo é um isósceles")
+//     }
+// }
+
+// 2 Conversão de notas para conceitos:
+
+// let notaAluno = prompt("Digite a nota do aluno")
+
+// if (notaAluno < 60 ) {
+//     alert("F")    
+// } else { 
+//         if(notaAluno >= 60 && notaAluno <= 69 ) {
+//             alert("D")
+//         } else {
+//             if(notaAluno >= 70 && notaAluno <= 79 ) {
+//                 alert("C")
+//             } else {
+//                 if(notaAluno >= 80 && notaAluno <= 89 ) {
+//                     alert("B")
+//                 } else {
+//                     alert("A")
+//             }
+//         }
+//     }
+
+// }
+
+// 3 Cálculo de IMC:
+
+// let peso = Number(prompt("Digite o peso"));
+// let altura = Number(prompt("Digite a altura"));
+
+// let resultado = peso/(altura*altura);
+
+// if (resultado < 18.5) {
+//     alert("Abaixo do peso " + resultado)
+// } else {
+//     if (resultado >= 18.5 && resultado <= 24.9 ) {
+//         alert("Peso normal "+ resultado)
+//     } else {
+//         if (resultado >= 25 && resultado <= 29.9 ){
+//             alert("Sobrepeso "+resultado)
+//         } else {
+//             alert("Obesidade "+resultado)
+//         }
+//     }
+// }
+
+
+// 4 Validação de ano bissexto:
+
+// let ano = Number(prompt("Digite o ano (Formato 1900)"))
+// let resultado= (ano % 4 === 0 && ano % 100 !== 0) || (ano % 400 === 0);
+
+// if (resultado == true) {
+//     alert("É Bissexto")
+// } else {
+//     alert("Não é Bissexto")
+// }
+
+
+let ano = Number(prompt("Digite o ano (Formato 1900)"))
+let resultado= (ano % 4 === 0 && ano % 100 !== 0);
+
+if (ano % 400 === 0) {
+    alert("È bissexto")
+}
