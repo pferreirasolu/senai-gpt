@@ -48,3 +48,78 @@
 //      soma = soma+i;
 // };
 //     console.log(soma);
+
+
+// Nível Intermediário
+
+// 1 Exibir os números pares de 1 a 50:
+// for (let i=1;i<=50; i++){
+
+//     if(i%2==0) {
+//         console.log(i)
+//     }
+// }
+
+// 2 Jogo de adivinhação:
+// const numeroAleatorio = Number(Math.floor(Math.random() * 101));
+// console.log(numeroAleatorio);
+// let numeroInserido;
+
+
+// while (numeroInserido !== numeroAleatorio) {
+
+//     numeroInserido = Number(prompt("Tente adivinhar o numero gerado!"));
+
+//     if (numeroInserido > numeroAleatorio) {
+//         alert("O numero é maior que o numero que foi gerado");
+//     } else {
+//         if (numeroInserido < numeroAleatorio) {
+//             alert("O numero é menor que o numero que foi gerado")
+//         } else {
+//             alert("Acertou!!! Numero = " + numeroAleatorio);
+//         }
+//     }
+
+
+// }
+
+// 3 Contagem regressiva:
+
+// let numero = Number(prompt("Digite um numero"));
+    
+//  numero = numero+1
+
+// while(numero > 0) {
+//     numero=numero-1;
+
+// console.log(numero)
+// }
+
+// Nível Avançado
+
+// 1 Soma dos dígitos de um número:
+
+// let numeroInteiro = prompt("Digite um numero inteiro e positivo");
+
+// let qtdDigitos = numeroInteiro.length;
+// let i=0;
+// let resultado = 0
+
+// while(i < qtdDigitos) {
+//     resultado += Number(numeroInteiro[i]);
+//     i++
+// }
+// alert(resultado)
+
+
+
+
+
+
+
+
+
+
+
+
+
