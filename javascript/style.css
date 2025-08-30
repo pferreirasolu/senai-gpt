@@ -1,0 +1,55 @@
+*{  margin: 0px;
+    box-sizing: 0px;
+    background-color: gray;
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+header {
+
+    font-size: 25px ;
+    font: arial;
+
+}
+h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;    
+}
+
+h3 {
+    margin-bottom: 10px;
+    }
+
+p {
+    margin-bottom: 5px;
+    }
+
+button {
+    margin-bottom: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 0px 10;
+    font-size: 0.8;
+    cursor: pointer;
+    transition: all ease 5s;
+}
+
+button:hover{
+background-color: blue;
+transform: scale(1.1) rotateZ(360deg);
+
+}
+
+
+button:active {
+background-color: red;
+
+}
+

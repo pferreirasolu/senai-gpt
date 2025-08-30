@@ -112,6 +112,15 @@
 // alert(resultado)
 
 
+function adicionarLog () {
+
+    let divLogs = document.querySelector(".logs")// seleciona a div
+    let tagP = document.createElement("p"); // cria a tag p
+
+    tagP.innerHTML = "Exercicio executado às "+ new Date().toLocaleDateString() +" as "+ new Date().toLocaleTimeString() ;
+    divLogs.appendChild(tagP);
+}
+
 
 
 
